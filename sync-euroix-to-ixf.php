@@ -11,7 +11,7 @@ $orgs = db_get_organisations( $mysqli );
 
 while( $org = $orgs->fetch_array( MYSQLI_ASSOC ) )
 {
-    if( $org['id'] < 1141 ) continue;
+    // if( $org['id'] < 1141 ) continue;
 
     ixf_create_or_update( 'IXF\\Org', $org );
 
