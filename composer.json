@@ -1,0 +1,20 @@
+{
+    "name": "euro-ix/euroix-ixf-sync",
+    "description": "Temporary syncronisation from Euro-IX to IX-F database",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Barry O'Donovan",
+            "email": "barry.odonovan@inex.ie"
+        }
+    ],
+    "repositories": [
+        {
+            "url": "git@github.com:euro-ix/ixf-client-php.git",
+            "type": "vcs"
+        }
+    ],
+    "require": {
+        "euro-ix/ixf-client-php": "dev-master"
+    }
+}
